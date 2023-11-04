@@ -1,0 +1,102 @@
+html{
+    scroll-behavior: smooth;
+}
+.carousel-caption.top-0 {
+    position: absolute;
+    top: 0;
+}
+.carouselcaption-padding{
+    padding-top: 20vh;
+}
+.subTitle{
+    text-transform:uppercase ;
+    font-size: 1.5em;
+
+}
+.Title{
+    font-size: 5em;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.553);
+}
+.button-visitus{
+    margin-top: 5vh;
+    font-size: 1.2em;
+}
+
+/* Why choose DogHaven Section */
+.ychoose{
+    height: 80vh;
+    padding: 10vh 20vw;
+}
+.pb-2 {
+    padding-bottom: .5rem!important;
+}
+.border-bottom {
+    border-bottom: 5px solid black;
+}
+.b-divider{
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
+}
+.cusCol{
+    padding: 20px;
+}
+/* about section*/ 
+.about-section{
+    height: 80vh;
+    padding: 10vh 20vw;
+}
+
+/* Facilities */
+.facilitiescontainer{
+    padding: 10%;
+}
+.facilities-section{
+    height: 80vh;
+    padding: 10vh 20vw;
+    
+}
+
+@media (max-width: 500px) {
+    /*Mobile View*/
+    .carouselcaption-padding{
+        padding-top: 15vh;
+    }
+    .subTitle{
+        text-transform:uppercase ;
+        font-size: 1.2em;
+
+    }
+    .Title{
+        font-size: 4em;
+        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.481);
+    }
+    .button-visitus{
+        margin-top: 5vh;
+        font-size: 1.2em;
+    }
+    /* Why choose DogHaven Section */
+    .ychoose{
+        height: 150vh;
+        padding: 5vh 10vw;
+    }
+    /* About section */
+    .about-section{
+        height: 150vh;
+        padding: 10vh 10vw;
+    }
+    
+
+    /* Facilities */
+    .facilities-section{
+        height: 80vh;
+        padding: 5vh 10vw;
+        
+    }
+    .facilitiescontainer{
+        padding: 10px 0;
+    }
+}
